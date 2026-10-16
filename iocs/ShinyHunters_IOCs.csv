@@ -1,0 +1,24 @@
+type,value,campaign,date_first_seen,date_last_seen,source,confidence,status,notes
+IPv4,142.11.200.186,Oracle PeopleSoft Education Sector,2026-05-27,2026-06-09,Mandiant/Google GTIG via OTX,high,inactive,Consecutive IP block - dedicated infrastructure
+IPv4,142.11.200.187,Oracle PeopleSoft Education Sector,2026-05-27,2026-06-09,Mandiant/Google GTIG via OTX,high,inactive,Consecutive IP block - dedicated infrastructure
+IPv4,142.11.200.188,Oracle PeopleSoft Education Sector,2026-05-27,2026-06-09,Mandiant/Google GTIG via OTX,high,inactive,Consecutive IP block - dedicated infrastructure
+IPv4,142.11.200.189,Oracle PeopleSoft Education Sector,2026-05-27,2026-06-09,Mandiant/Google GTIG via OTX,high,inactive,Consecutive IP block - dedicated infrastructure
+FileHash-MD5,ebcf977806f68af3147e0b78b55f6aed,Oracle PeopleSoft Education Sector,2026-05-27,2026-06-09,Mandiant/Google GTIG via OTX,high,active,Attacker file - Education sector campaign
+FileHash-SHA1,cc19e502e4201cc974c753b96429027925224f53,Oracle PeopleSoft Education Sector,2026-05-27,2026-06-09,Mandiant/Google GTIG via OTX,high,active,Attacker file - Education sector campaign
+FileHash-SHA256,2ab684d93c1553fad87041b4dea97188a97e78589deee2a7bacff905564f3a35,Oracle PeopleSoft Education Sector,2026-05-27,2026-06-09,Mandiant/Google GTIG via OTX,high,active,Attacker file - Education sector campaign
+FileHash-SHA256,c7e9332731b06644fc73e0046a2a89eaa59b09f54250e9bd622467187351711f,Oracle PeopleSoft Education Sector,2026-05-27,2026-06-09,Mandiant/Google GTIG via OTX,high,active,Attacker file - Education sector campaign
+FileHash-SHA256,d83fdb9e53c5ff03c4cb0451ea1bebd79b53f29eadc1e2fa394c7af13a86ce2f,Oracle PeopleSoft Education Sector,2026-05-27,2026-06-09,Mandiant/Google GTIG via OTX,high,active,Attacker file - Education sector campaign
+FileHash-SHA256,f02a924c9ff92a8780ce812511341182c6b509d45bc59f3f7b522e37225d24fc,Oracle PeopleSoft Education Sector,2026-05-27,2026-06-09,Mandiant/Google GTIG via OTX,high,active,Attacker file - Education sector campaign
+domain,help-okta.com,SaaS Subdomain Impersonation,2024-01-01,,OTX,medium,inactive,Okta impersonation - credential harvesting
+domain,policenationale.cc,Unverified - possible false positive,,,OTX,low,unknown,Requires further verification before attribution
+IPv4,176.120.22.24,Oracle PeopleSoft Exploit,,,OTX,low,unknown,Requires further verification before attribution
+domain,access-terms.com,SaaS Subdomain Impersonation,,,ReliaQuest via OTX,high,unknown,Okta impersonation cluster - credential harvesting
+domain,acess-terms.com,SaaS Subdomain Impersonation,,,ReliaQuest via OTX,high,unknown,Typosquat variant of access-terms.com - Okta impersonation
+domain,desk-okta.com,SaaS Subdomain Impersonation,,,ReliaQuest via OTX,high,unknown,Okta impersonation cluster - credential harvesting
+domain,help-okta.com,SaaS Subdomain Impersonation,,,ReliaQuest via OTX,high,inactive,Okta impersonation - SaaS access campaign
+domain,lock-okta.com,SaaS Subdomain Impersonation,,,ReliaQuest via OTX,high,unknown,Okta impersonation cluster - credential harvesting
+domain,okta.domains,SaaS Subdomain Impersonation,,,ReliaQuest via OTX,high,unknown,Okta impersonation cluster - credential harvesting
+domain,okta.guide,SaaS Subdomain Impersonation,,,ReliaQuest via OTX,high,unknown,Okta impersonation cluster - credential harvesting
+domain,prod-okta.com,SaaS Subdomain Impersonation,,,ReliaQuest via OTX,high,unknown,Okta impersonation cluster - credential harvesting
+domain,safe-okta.com,SaaS Subdomain Impersonation,,,ReliaQuest via OTX,high,unknown,Okta impersonation cluster - credential harvesting
+domain,setup-okta.com,SaaS Subdomain Impersonation,,,ReliaQuest via OTX,high,unknown,Okta impersonation cluster - credential harvesting
