@@ -1,0 +1,148 @@
+{
+  "name": "ShinyHunters G1057",
+  "versions": {
+    "attack": "14",
+    "navigator": "4.9.1",
+    "layer": "4.5"
+  },
+  "domain": "enterprise-attack",
+  "description": "ShinyHunters (G1057) TTP mapping based on public sources: Mandiant, Google GTIG, ReliaQuest, OTX. Updated 2024.",
+  "techniques": [
+    {
+      "techniqueID": "T1595",
+      "tactic": "reconnaissance",
+      "score": 2,
+      "color": "#ff6666",
+      "comment": "Active scanning of target infrastructure"
+    },
+    {
+      "techniqueID": "T1589",
+      "tactic": "reconnaissance",
+      "score": 3,
+      "color": "#ff4444",
+      "comment": "Gathering victim credentials and identity info"
+    },
+    {
+      "techniqueID": "T1583",
+      "tactic": "resource-development",
+      "score": 3,
+      "color": "#ff4444",
+      "comment": "Acquiring Okta impersonation domains - help-okta.com cluster"
+    },
+    {
+      "techniqueID": "T1566",
+      "tactic": "initial-access",
+      "score": 3,
+      "color": "#ff4444",
+      "comment": "Phishing via Okta subdomain impersonation"
+    },
+    {
+      "techniqueID": "T1566.002",
+      "tactic": "initial-access",
+      "score": 3,
+      "color": "#ff4444",
+      "comment": "Spearphishing link to fake Okta login pages"
+    },
+    {
+      "techniqueID": "T1190",
+      "tactic": "initial-access",
+      "score": 3,
+      "color": "#ff4444",
+      "comment": "Oracle PeopleSoft exploitation - Education sector campaign"
+    },
+    {
+      "techniqueID": "T1059",
+      "tactic": "execution",
+      "score": 2,
+      "color": "#ff6666",
+      "comment": "Script execution on compromised systems"
+    },
+    {
+      "techniqueID": "T1078",
+      "tactic": "credential-access",
+      "score": 3,
+      "color": "#ff4444",
+      "comment": "Valid accounts obtained via credential harvesting"
+    },
+    {
+      "techniqueID": "T1110",
+      "tactic": "credential-access",
+      "score": 3,
+      "color": "#ff4444",
+      "comment": "Brute force and credential stuffing attacks"
+    },
+    {
+      "techniqueID": "T1555",
+      "tactic": "credential-access",
+      "score": 2,
+      "color": "#ff6666",
+      "comment": "Credentials from password stores"
+    },
+    {
+      "techniqueID": "T1087",
+      "tactic": "discovery",
+      "score": 2,
+      "color": "#ff6666",
+      "comment": "Account discovery on compromised environments"
+    },
+    {
+      "techniqueID": "T1083",
+      "tactic": "discovery",
+      "score": 2,
+      "color": "#ff6666",
+      "comment": "File and directory discovery for high value data"
+    },
+    {
+      "techniqueID": "T1530",
+      "tactic": "collection",
+      "score": 3,
+      "color": "#ff4444",
+      "comment": "Data from cloud storage - primary collection method"
+    },
+    {
+      "techniqueID": "T1213",
+      "tactic": "collection",
+      "score": 3,
+      "color": "#ff4444",
+      "comment": "Data from information repositories (databases, SaaS)"
+    },
+    {
+      "techniqueID": "T1041",
+      "tactic": "exfiltration",
+      "score": 3,
+      "color": "#ff4444",
+      "comment": "Exfiltration of credentials and PII over C2 channel"
+    },
+    {
+      "techniqueID": "T1657",
+      "tactic": "impact",
+      "score": 3,
+      "color": "#ff4444",
+      "comment": "Financial extortion using stolen data as leverage"
+    },
+    {
+      "techniqueID": "T1486",
+      "tactic": "impact",
+      "score": 2,
+      "color": "#ff6666",
+      "comment": "Data encrypted for impact in some campaigns"
+    }
+  ],
+  "gradient": {
+    "colors": ["#ffffff", "#ff6666", "#ff0000"],
+    "minValue": 0,
+    "maxValue": 3
+  },
+  "legendItems": [
+    {
+      "label": "Documented in multiple campaigns (score 2)",
+      "color": "#ff6666"
+    },
+    {
+      "label": "Core TTP / widely documented (score 3)",
+      "color": "#ff4444"
+    }
+  ],
+  "showTacticRowBackground": true,
+  "tacticRowBackground": "#dddddd"
+}
